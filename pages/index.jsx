@@ -9,13 +9,16 @@ export default function Home() {
         <title>Welcome to my blog</title>
       </Head>
       <div>
-        <Link href='/about-us' passHref>
+        <Link href="/about-us" passHref>
           <a>About Us</a>
+        </Link>
+        <Link href="/contact-us" passHref>
+          <a>Contact Us</a>
         </Link>
       </div>
       <div>
-        <Widget pageName='index' />
+        <Widget pageName="index" />
       </div>
     </>
-  )
+  );
 }

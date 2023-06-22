@@ -9,6 +9,9 @@ export default function AboutUs() {
         <title>About this blog</title>
       </Head>
       <div>
+        <Link href="/contact-us" passHref>
+          <a>Contact Us</a>
+        </Link>
         <Link href="/" passHref>
           <a>Back to home</a>
         </Link>
