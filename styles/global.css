@@ -1,0 +1,62 @@
+html,
+body {
+  /* colour palette */
+  --black: #001524;
+  --blue: #15616d;
+  --light: #ffecd1;
+  --orange: #ff7d00;
+  --brown: #78290f;
+
+  padding: 0;
+  margin: 0;
+  outline: none;
+  color: var(--dark);
+  background-color: var(--lighter);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+  color: var(--darker);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark);
+  opacity: 0.9;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+button:hover,
+button:focus {
+  background: transparent;
+}
+
+button:focus {
+  outline: none;
+}
