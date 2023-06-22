@@ -8,17 +8,10 @@ export default function AboutUs() {
       <Head>
         <title>About this blog</title>
       </Head>
-      <div>
-        <Link href="/contact-us" passHref>
-          <a>Contact Us</a>
-        </Link>
-        <Link href="/" passHref>
-          <a>Back to home</a>
-        </Link>
-      </div>
-      <div>
+      <header>
         <Widget pageName="about" />
-      </div>
+      </header>
+      <main>This is the about us page</main>
     </>
   );
 }

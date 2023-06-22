@@ -8,22 +8,14 @@ export default function ContactUS() {
       <Head>
         <title>You can contact us</title>
       </Head>
-      <div>
-        <Link href="/about-us" passHref>
-          <a>About Us</a>
-        </Link>
-        <Link href="/" passHref>
-          <a>Back to home</a>
-        </Link>
-      </div>
+      <header>
+        <Widget pageName="contact" />
+      </header>
       <ul>
         <li>Email: jon-doe445@homeworkers-inc.com</li>
         <li>Twitter: @jon-doe445</li>
         <li>Instagram: jon-doe445</li>
       </ul>
-      <div>
-        <Widget pageName="contact" />
-      </div>
     </div>
   );
 }
